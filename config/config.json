@@ -49,10 +49,12 @@
         }
       ],
       "key" : "s",
+      "label" : "Search",
       "type" : "group"
     },
     {
       "key" : "t",
+      "label" : "Terminal",
       "type" : "application",
       "value" : "/Applications/iTerm.app"
     }
