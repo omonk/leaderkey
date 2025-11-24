@@ -1,58 +1,58 @@
 {
-  "actions" : [
+  "actions": [
     {
-      "key" : "t",
-      "type" : "application",
-      "value" : "/Applications/iTerm.app"
+      "key": "t",
+      "type": "application",
+      "value": "/Applications/iTerm.app"
     },
     {
-      "actions" : [
+      "actions": [
         {
-          "key" : "b",
-          "type" : "application",
-          "value" : "/Applications/Google Chrome.app"
+          "key": "b",
+          "type": "application",
+          "value": "/Applications/Google Chrome.app"
         },
         {
-          "key" : "c",
-          "type" : "application",
-          "value" : "/Applications/Visual Studio Code.app"
+          "key": "c",
+          "type": "application",
+          "value": "/Applications/Visual Studio Code.app"
         },
         {
-          "key" : "s",
-          "type" : "application",
-          "value" : "/Applications/Spotify.app"
+          "key": "s",
+          "type": "application",
+          "value": "/Applications/Spotify.app"
         },
         {
-          "key" : "t",
-          "type" : "application",
-          "value" : "/Applications/Telegram.app"
+          "key": "t",
+          "type": "application",
+          "value": "/Applications/Telegram.app"
         }
       ],
-      "key" : "o",
-      "label" : "Apps",
-      "type" : "group"
+      "key": "o",
+      "label": "Apps",
+      "type": "group"
     },
     {
-      "actions" : [
+      "actions": [
         {
-          "key" : ".",
-          "type" : "command",
-          "value" : "osascript ~/leaderkeyscripts/search-clipboard.scpt"
+          "key": ".",
+          "type": "command",
+          "value": "osascript ~/leaderkey/leaderkeyscripts/search-clipboard.scpt"
         },
         {
-          "key" : "s",
-          "type" : "command",
-          "value" : "osascript ~/leaderkeyscripts/search.scpt"
+          "key": "s",
+          "type": "command",
+          "value": "osascript ~/leaderkey/leaderkeyscripts/search.scpt"
         },
         {
-          "key" : "h",
-          "type" : "command",
-          "value" : "osascript ~/leaderkeyscripts/search-highlighted.scpt"
+          "key": "h",
+          "type": "command",
+          "value": "osascript ~/leaderkey/leaderkeyscripts/search-highlighted.scpt"
         }
       ],
-      "key" : "s",
-      "type" : "group"
+      "key": "s",
+      "type": "group"
     }
   ],
-  "type" : "group"
+  "type": "group"
 }
