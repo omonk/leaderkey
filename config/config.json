@@ -3,6 +3,148 @@
     {
       "actions" : [
         {
+          "key" : "1",
+          "label" : "Maximize",
+          "type" : "url",
+          "value" : "rectangle://execute-action?name=maximize"
+        },
+        {
+          "actions" : [
+            {
+              "key" : "1",
+              "label" : "Left half",
+              "type" : "url",
+              "value" : "rectangle://execute-action?name=left-half"
+            },
+            {
+              "key" : "2",
+              "label" : "Right half",
+              "type" : "url",
+              "value" : "rectangle://execute-action?name=right-half"
+            },
+            {
+              "key" : "7",
+              "label" : "Top-left",
+              "type" : "url",
+              "value" : "rectangle://execute-action?name=top-left"
+            },
+            {
+              "key" : "8",
+              "label" : "Top-right",
+              "type" : "url",
+              "value" : "rectangle://execute-action?name=top-right"
+            },
+            {
+              "key" : "9",
+              "label" : "Bottom-left",
+              "type" : "url",
+              "value" : "rectangle://execute-action?name=bottom-left"
+            },
+            {
+              "key" : "0",
+              "label" : "Bottom-right",
+              "type" : "url",
+              "value" : "rectangle://execute-action?name=bottom-right"
+            }
+          ],
+          "key" : "2",
+          "label" : "Resize: Two columns",
+          "type" : "group"
+        },
+        {
+          "actions" : [
+            {
+              "key" : "1",
+              "label" : "First fourth",
+              "type" : "url",
+              "value" : "rectangle://execute-action?name=first-fourth"
+            },
+            {
+              "key" : "2",
+              "label" : "Second fourth",
+              "type" : "url",
+              "value" : "rectangle://execute-action?name=second-fourth"
+            },
+            {
+              "key" : "3",
+              "label" : "Third fourth",
+              "type" : "url",
+              "value" : "rectangle://execute-action?name=third-fourth"
+            },
+            {
+              "key" : "4",
+              "label" : "Last fourth",
+              "type" : "url",
+              "value" : "rectangle://execute-action?name=last-fourth"
+            },
+            {
+              "key" : "9",
+              "label" : "First three-fourths",
+              "type" : "url",
+              "value" : "rectangle://execute-action?name=first-three-fourths"
+            },
+            {
+              "key" : "0",
+              "label" : "Last three-fourths",
+              "type" : "url",
+              "value" : "rectangle://execute-action?name=last-three-fourths"
+            }
+          ],
+          "key" : "4",
+          "label" : "Resize: Four columns",
+          "type" : "group"
+        },
+        {
+          "actions" : [
+            {
+              "key" : "1",
+              "label" : "Top-left sixth",
+              "type" : "url",
+              "value" : "rectangle://execute-action?name=top-left-sixth"
+            },
+            {
+              "key" : "2",
+              "label" : "Top-center sixth",
+              "type" : "url",
+              "value" : "rectangle://execute-action?name=top-center-sixth"
+            },
+            {
+              "key" : "3",
+              "label" : "Top-right sixth",
+              "type" : "url",
+              "value" : "rectangle://execute-action?name=top-right-sixth"
+            },
+            {
+              "key" : "4",
+              "label" : "Bottom-left sixth",
+              "type" : "url",
+              "value" : "rectangle://execute-action?name=bottom-left-sixth"
+            },
+            {
+              "key" : "5",
+              "label" : "Bottom-center sixth",
+              "type" : "url",
+              "value" : "rectangle://execute-action?name=bottom-center-sixth"
+            },
+            {
+              "key" : "6",
+              "label" : "Bottom-right sixth",
+              "type" : "url",
+              "value" : "rectangle://execute-action?name=bottom-right-sixth"
+            }
+          ],
+          "key" : "6",
+          "label" : "Resize: Sixths",
+          "type" : "group"
+        }
+      ],
+      "key" : "w",
+      "label" : "Window",
+      "type" : "group"
+    },
+    {
+      "actions" : [
+        {
           "key" : "b",
           "type" : "application",
           "value" : "/Applications/Google Chrome.app"
@@ -21,6 +163,16 @@
           "key" : "t",
           "type" : "application",
           "value" : "/Applications/Telegram.app"
+        },
+        {
+          "key" : "f",
+          "type" : "command",
+          "value" : "open /System/Library/CoreServices/Finder.app"
+        },
+        {
+          "key" : "e",
+          "type" : "application",
+          "value" : "/Applications/ExpressVPN.app"
         }
       ],
       "key" : "o",
@@ -43,7 +195,7 @@
         },
         {
           "iconPath" : "magnifyingglass.circle.fill",
-          "key" : "s",
+          "key" : "S",
           "type" : "command",
           "value" : "osascript ~/leaderkey/leaderkeyscripts/search.scpt"
         }
