@@ -173,6 +173,16 @@
           "key" : "e",
           "type" : "application",
           "value" : "/Applications/ExpressVPN.app"
+        },
+        {
+          "key" : "w",
+          "type" : "application",
+          "value" : "/Applications/WhatsApp.app"
+        },
+        {
+          "key" : "1",
+          "type" : "application",
+          "value" : "/Applications/1Password.app"
         }
       ],
       "key" : "o",
@@ -209,6 +219,11 @@
       "label" : "Terminal",
       "type" : "application",
       "value" : "/Applications/iTerm.app"
+    },
+    {
+      "key" : "r",
+      "type" : "application",
+      "value" : "/Applications/Raycast.app"
     }
   ],
   "type" : "group"
